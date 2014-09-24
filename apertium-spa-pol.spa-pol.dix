@@ -1,0 +1,15 @@
+<dictionary>
+  <sdefs>
+    <s n="n"      c="Sustantivo"/>
+    <s n="nt"     c="Neutro"/>
+    <s n="mi"     c="Masculino (inanimado)"/>
+    <s n="f"      c="Feminino"/>
+  </sdefs>
+  <section id="main" type="standard">
+
+    <!-- SECCIÓN: Sustantivos -->
+  
+    <e><p><l>lengua<s n="n"/><s n="f"/></l><r>język<s n="n"/><s n="mi"/></r></p></e>
+
+  </section>
+</dictionary>

@@ -1,0 +1,10 @@
+* text=auto !eol
+/AUTHORS -text
+/ChangeLog -text
+/Makefile.am -text
+/NEWS -text
+/README -text
+/apertium-spa-pol.spa-pol.dix -text
+/autogen.sh -text
+/configure.ac -text
+texts/cuento.spa.txt -text
