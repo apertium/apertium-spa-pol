@@ -1,9 +1,9 @@
 <dictionary>
   <sdefs>
-    <s n="n"      c="Sustantivo"/>
-    <s n="nt"     c="Neutro"/>
-    <s n="mi"     c="Masculino (inanimado)"/>
-    <s n="f"      c="Feminino"/>
+    <sdef n="n"      c="Sustantivo"/>
+    <sdef n="nt"     c="Neutro"/>
+    <sdef n="mi"     c="Masculino (inanimado)"/>
+    <sdef n="f"      c="Feminino"/>
   </sdefs>
   <section id="main" type="standard">
 
