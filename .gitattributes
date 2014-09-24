@@ -1,5 +1,6 @@
 * text=auto !eol
 /AUTHORS -text
+/COPYING -text
 /ChangeLog -text
 /Makefile.am -text
 /NEWS -text
@@ -15,4 +16,5 @@
 /apertium-spa-pol.spa-pol.t3x -text
 /autogen.sh -text
 /configure.ac -text
+/modes.xml -text
 texts/cuento.spa.txt -text
