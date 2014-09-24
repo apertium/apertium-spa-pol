@@ -1,9 +1,15 @@
 <dictionary>
   <sdefs>
     <sdef n="n"      c="Sustantivo"/>
+
     <sdef n="nt"     c="Neutro"/>
+    <sdef n="m"      c="Masculino"/>
+    <sdef n="mf"     c="Masculino / feminino"/>
     <sdef n="mi"     c="Masculino (inanimado)"/>
+    <sdef n="mp"     c="Masculino (personal)"/>
+    <sdef n="ma"     c="Masculino (animado)"/>
     <sdef n="f"      c="Feminino"/>
+
     <sdef n="sent"   c="Marcador de fin de oración"/>
   </sdefs>
   <section id="main" type="standard">
@@ -11,6 +17,25 @@
     <!-- SECCIÓN: Sustantivos -->
   
     <e><p><l>lengua<s n="n"/><s n="f"/></l><r>język<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>instituto<s n="n"/><s n="m"/></l><r>liceum<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>accidente<s n="n"/><s n="m"/></l><r>wypadek<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>avión<s n="n"/><s n="m"/></l><r>samolot<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>aeropuerto<s n="n"/><s n="m"/></l><r>lotnisko<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>algoritmo<s n="n"/><s n="m"/></l><r>algorytm<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>alianza<s n="n"/><s n="f"/></l><r>alians<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>alianza<s n="n"/><s n="f"/></l><r>sojusz<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>ambiguedad<s n="n"/><s n="f"/></l><r>dwuznaczność<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ambiguedad<s n="n"/><s n="f"/></l><r>wieloznaczność<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>anarchista<s n="n"/><s n="mf"/></l><r>anarchista<s n="n"/><s n="mp"/></r></p></e>
+    <e><p><l>ángel<s n="n"/><s n="m"/></l><r>anioł<s n="n"/><s n="ma"/></r></p></e>
+    <e><p><l>té<s n="n"/><s n="m"/></l><r>herbata<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>toalla<s n="n"/><s n="f"/></l><r>ręcznik<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>torre<s n="n"/><s n="m"/></l><r>wieża<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>mundo<s n="n"/><s n="m"/></l><r>świat<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>año<s n="n"/><s n="m"/></l><r>rok<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>joventud<s n="n"/><s n="f"/></l><r>młodość<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>día<s n="n"/><s n="m"/></l><r>dzień<s n="n"/><s n="mi"/></r></p></e>
+
 
     <!-- SECCIÓN: Punctuación -->
 
