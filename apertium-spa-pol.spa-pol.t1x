@@ -2,6 +2,15 @@
 <!-- -*- nxml -*- -->
 <transfer default="chunk">
   <section-def-cats>
+    <def-cat n="det-def">
+      <cat-item tags="det.def.*"/>
+    </def-cat>
+    <def-cat n="vbser">
+      <cat-item tags="vbser.*"/>
+    </def-cat>
+    <def-cat n="adjec">
+      <cat-item tags="adj.*"/>
+    </def-cat>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
     </def-cat>
@@ -12,6 +21,10 @@
   <section-def-attrs>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
+    </def-attr>
+    <def-attr n="a_adjec">
+      <attr-item tags="adj"/>
+      <attr-item tags="adj.sint"/>
     </def-attr>
     <def-attr n="a_nbr">
       <attr-item tags="sg"/>
@@ -27,6 +40,11 @@
       <attr-item tags="mp"/>
       <attr-item tags="nt"/>
       <attr-item tags="GD"/>
+    </def-attr>
+    <def-attr n="a_temps">
+      <attr-item tags="pri"/>
+
+      <attr-item tags="pres"/>
     </def-attr>
     <def-attr n="a_cas">
       <attr-item tags="nom"/>
@@ -94,6 +112,85 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: DET-DEF NOM">
+      <pattern>
+        <pattern-item n="det-def"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN.DET"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="a_gen"/>
+              <clip pos="2" side="tl" part="a_nbr"/>
+              <lit-tag v="nom"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: ADJEC">
+      <pattern>
+        <pattern-item n="adjec"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="j" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SA"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_adjec"/>
+              <clip pos="1" side="tl" part="a_gen"/>
+              <clip pos="1" side="tl" part="a_nbr"/>
+              <lit-tag v="nom"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+
+
+
+
+    <rule comment="REGLA: VBSER">
+      <pattern>
+        <pattern-item n="vbser"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test><equal><clip pos="1" side="sl" part="a_temps"/><lit-tag v="pri"/></equal></test>
+            <let><clip pos="1" side="tl" part="a_temps"/><lit-tag v="pres"/></let>
+          </when>
+        </choose>
+        <out>
+          <chunk name="v" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
 
   </section-rules>
 </transfer>

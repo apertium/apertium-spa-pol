@@ -1,6 +1,9 @@
 <dictionary>
   <sdefs>
     <sdef n="n"      c="Sustantivo"/>
+    <sdef n="vbser"  c="El verbo 'ser'"/>
+    <sdef n="det"    c="Determinante"/>
+    <sdef n="adj"    c="Adjectivo"/>
 
     <sdef n="nt"     c="Neutro"/>
     <sdef n="m"      c="Masculino"/>
@@ -10,14 +13,22 @@
     <sdef n="ma"     c="Masculino (animado)"/>
     <sdef n="f"      c="Feminino"/>
 
+    <sdef n="def"    c="Definido"/>
+    <sdef n="sint"   c="Sintético"/>
+
     <sdef n="sent"   c="Marcador de fin de oración"/>
   </sdefs>
   <section id="main" type="standard">
+
+    <!-- SECCIÓN: Determinantes -->
+
+    <e r="LR"><p><l>el<s n="det"/><s n="def"/></l><r></r></p></e>
 
     <!-- SECCIÓN: Sustantivos -->
   
     <e><p><l>lengua<s n="n"/><s n="f"/></l><r>język<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>instituto<s n="n"/><s n="m"/></l><r>liceum<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>casa<s n="n"/><s n="f"/></l><r>dom<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>accidente<s n="n"/><s n="m"/></l><r>wypadek<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>avión<s n="n"/><s n="m"/></l><r>samolot<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>aeropuerto<s n="n"/><s n="m"/></l><r>lotnisko<s n="n"/><s n="nt"/></r></p></e>
@@ -36,6 +47,13 @@
     <e><p><l>joventud<s n="n"/><s n="f"/></l><r>młodość<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>día<s n="n"/><s n="m"/></l><r>dzień<s n="n"/><s n="mi"/></r></p></e>
 
+    <!-- SECCIÓN: Adjectivos -->
+
+    <e><p><l>blanco<s n="adj"/></l><r>biały<s n="adj"/><s n="sint"/></r></p></e>
+
+    <!-- SECCIÓN: Verbos -->
+
+    <e><p><l>ser<s n="vbser"/></l><r>być<s n="vbser"/></r></p></e>
 
     <!-- SECCIÓN: Punctuación -->
 
