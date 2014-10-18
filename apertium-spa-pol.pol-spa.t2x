@@ -6,10 +6,15 @@
       <cat-item tags="SN"/>
       <cat-item tags="SN.*"/>
     </def-cat>
+    <def-cat n="SAdj">
+      <cat-item tags="SAdj"/>
+      <cat-item tags="SAdj.*"/>
+    </def-cat>
     <def-cat n="SENT">
       <cat-item tags="SENT"/>
     </def-cat>
   </section-def-cats>
+
   <section-def-attrs>
     <def-attr n="a_nbr">
       <attr-item tags="sg"/>
@@ -27,6 +32,7 @@
       <attr-item tags="abl"/>
     </def-attr>
   </section-def-attrs>
+
   <section-def-vars>
     <def-var n="number"/>
     <def-var n="POST"/>
@@ -40,6 +46,7 @@
     </def-macro>
   </section-def-macros>
   <section-rules>
+
     <rule comment="REGLA: SN">
       <pattern>
         <pattern-item n="SN"/>
@@ -54,6 +61,23 @@
         </out>
       </action>
     </rule>
+
+   <rule comment="REGLA: SAdj">
+      <pattern>
+        <pattern-item n="SAdj"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
   </section-rules>
 </interchunk>
 

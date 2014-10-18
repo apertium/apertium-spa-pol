@@ -1,5 +1,5 @@
 <dictionary>
-  <sdefs>
+  <sdefs>  <!-- esta lista debe ser completa -->
     <sdef n="n"      c="Sustantivo"/>
     <sdef n="vbser"  c="El verbo 'ser'"/>
     <sdef n="det"    c="Determinante"/>
@@ -17,6 +17,7 @@
     <sdef n="sint"   c="Sintético"/>
 
     <sdef n="sent"   c="Marcador de fin de oración"/>
+    <sdef n="cm"     c="coma"/>
   </sdefs>
   <section id="main" type="standard">
 
@@ -44,20 +45,22 @@
     <e><p><l>torre<s n="n"/><s n="m"/></l><r>wieża<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>mundo<s n="n"/><s n="m"/></l><r>świat<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>año<s n="n"/><s n="m"/></l><r>rok<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>joventud<s n="n"/><s n="f"/></l><r>młodość<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>juventud<s n="n"/><s n="f"/></l><r>młodość<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>día<s n="n"/><s n="m"/></l><r>dzień<s n="n"/><s n="mi"/></r></p></e>
 
-    <!-- SECCIÓN: Adjectivos -->
+    <!-- SECCIÓN: Adjetivos -->
 
     <e><p><l>blanco<s n="adj"/></l><r>biały<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>negro<s n="adj"/></l><r>czarny<s n="adj"/><s n="sint"/></r></p></e>
 
     <!-- SECCIÓN: Verbos -->
 
     <e><p><l>ser<s n="vbser"/></l><r>być<s n="vbser"/></r></p></e>
 
-    <!-- SECCIÓN: Punctuación -->
+    <!-- SECCIÓN: Puntuación -->
 
     <e><re>[.\?;:!"]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+    <e><i>,<s n="cm"/></i></e> <!-- es así como se traduce la coma? -->
 
   </section>
 </dictionary>

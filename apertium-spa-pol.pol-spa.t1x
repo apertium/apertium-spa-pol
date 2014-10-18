@@ -5,6 +5,9 @@
     <def-cat n="nom">
       <cat-item tags="n.*"/>
     </def-cat>
+    <def-cat n="adj">
+      <cat-item tags="adj.*"/>
+    </def-cat>
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>
@@ -12,6 +15,9 @@
   <section-def-attrs>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
+    </def-attr>
+   <def-attr n="a_adj">
+      <attr-item tags="adj"/>
     </def-attr>
     <def-attr n="a_nbr">
       <attr-item tags="sg"/>
@@ -73,6 +79,8 @@
 
 
     <rule comment="REGLA: NOM">
+    <!-- la regla ignora el caso en polaco: debería hacer algo con 
+         el caso instrumental (generar una preposición): lo haremos -->
       <pattern>
         <pattern-item n="nom"/>
       </pattern>
@@ -93,6 +101,140 @@
         </out>
       </action>
     </rule>
+
+
+    <rule comment="REGLA: ADJ">
+    <!-- para adjetivos sueltos -->
+    <!-- de momento mantiene el género y el número 
+         del adjetivo polaco, lo que tal
+         vez no tenga demasiado sentido: habría que intentar que se asignara
+         en interchunk a partir del último género y número observados,
+         y cazando en post-chunk el caso en el que quedara sin determinar --> 
+      <pattern>
+        <pattern-item n="adj"/>
+      </pattern>
+      <action>
+        <choose>
+        <when> <!-- si el género es mi, ma o mp hay que convertirlo a m -->
+          <test>
+           <or>
+             <equal>
+              <clip pos="1" side="sl" part="a_gen"/>
+              <lit-tag v="mi"/>
+             </equal>
+             <equal>
+              <clip pos="1" side="sl" part="a_gen"/>
+              <lit-tag v="ma"/>
+             </equal>
+             <equal>
+              <clip pos="1" side="sl" part="a_gen"/>
+              <lit-tag v="mp"/>
+             </equal>
+            </or>
+          </test>
+          <let>
+              <clip pos="1" side="tl" part="a_gen"/>
+              <lit-tag v="m"/> <!-- podría ser GD y tratarse en .t3x -->
+          </let>
+        </when>
+        </choose>
+        <out>
+          <chunk name="adj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SAdj"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_adj"/>
+              <clip pos="1" side="tl" part="a_gen"/>
+              <clip pos="1" side="tl" part="a_nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: ADJ N">
+    <!-- primer intento -->
+    <!-- la regla ignora el caso en polaco: debería hacer algo con 
+         el caso instrumental (generar una preposición): lo haremos -->
+    <!-- la regla asume que el adjetivo concuerda con el nombre en
+         polaco; más adelante podemos tratar el caso en el que no
+         concuerdan porque no forman un SN pero parece improbable -->
+      <pattern>
+        <pattern-item n="adj"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <choose>
+        <when> <!-- si el género del nombre en español es mf, 
+                    hay que tomar el género del adjetivo polaco, 
+                    pero reduciendo mi, ma y mp a m (aproximación) -->
+          <test>
+             <equal>
+              <clip pos="2" side="tl" part="a_gen"/>
+              <lit-tag v="mf"/>
+             </equal>
+          </test>
+          <choose>
+             <when> <!-- si el género es mi, ma o mp hay que convertirlo a m -->
+               <test>
+                 <or>
+                   <equal>
+                     <clip pos="1" side="sl" part="a_gen"/>
+                     <lit-tag v="mi"/>
+                   </equal>
+                   <equal>
+                     <clip pos="1" side="sl" part="a_gen"/>
+                     <lit-tag v="ma"/>
+                   </equal>
+                   <equal>
+                      <clip pos="1" side="sl" part="a_gen"/>
+                      <lit-tag v="mp"/>
+                   </equal>
+                 </or>
+               </test>
+               <let>
+                 <clip pos="1" side="tl" part="a_gen"/>
+                 <lit-tag v="m"/> 
+               </let>
+             </when>
+          </choose>
+          <let>
+              <clip pos="2" side="tl" part="a_gen"/>
+              <clip pos="1" side="tl" part="a_gen"/> 
+          </let>
+        </when>
+        </choose>
+        <out>
+          <chunk name="adj-nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SAdj"/></tag>
+            </tags>
+            <b pos="1"/> <!-- sacamos el blanco que hay entre el adj y el nom -->
+            <lu> <!-- después sacamos el nombre -->
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="a_gen"/>
+              <clip pos="2" side="tl" part="a_nbr"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+            <b/> <!-- generamos un espacio en blanco nuevo -->
+            <lu> <!-- y después el adjetivo, pero con el género
+                      y el número del nombre -->
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_adj"/>
+              <clip pos="2" side="tl" part="a_gen"/>
+              <clip pos="2" side="tl" part="a_nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
 
   </section-rules>
 </transfer>
