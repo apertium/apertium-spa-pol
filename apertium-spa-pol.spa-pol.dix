@@ -60,7 +60,7 @@
     <!-- SECCIÓN: Puntuación -->
 
     <e><re>[.\?;:!"]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
-    <e><i>,<s n="cm"/></i></e> <!-- es así como se traduce la coma? -->
+    <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e> <!-- Es así como se traduce la coma? -->
 
   </section>
 </dictionary>
