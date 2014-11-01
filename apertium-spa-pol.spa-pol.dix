@@ -44,6 +44,7 @@
     <e><p><l>toalla<s n="n"/><s n="f"/></l><r>ręcznik<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>torre<s n="n"/><s n="m"/></l><r>wieża<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>mundo<s n="n"/><s n="m"/></l><r>świat<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>sustantivo<s n="n"/><s n="m"/></l><r>rzeczownik<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>año<s n="n"/><s n="m"/></l><r>rok<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>juventud<s n="n"/><s n="f"/></l><r>młodość<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>día<s n="n"/><s n="m"/></l><r>dzień<s n="n"/><s n="mi"/></r></p></e>
@@ -56,6 +57,7 @@
     <!-- SECCIÓN: Verbos -->
 
     <e><p><l>ser<s n="vbser"/></l><r>być<s n="vbser"/></r></p></e>
+    <e><p><l>declinar<s n="vblex"/></l><r>odmieniać<s n="vblex"/></r></p></e>
 
     <!-- SECCIÓN: Puntuación -->
 
