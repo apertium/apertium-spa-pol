@@ -26,11 +26,9 @@
     <e r="LR"><p><l>el<s n="det"/><s n="def"/></l><r></r></p></e>
 
     <!-- SECCIÓN: Sustantivos -->
-  
-    <e><p><l>lengua<s n="n"/><s n="f"/></l><r>język<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>instituto<s n="n"/><s n="m"/></l><r>liceum<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>casa<s n="n"/><s n="f"/></l><r>dom<s n="n"/><s n="mi"/></r></p></e>
+    
     <e><p><l>accidente<s n="n"/><s n="m"/></l><r>wypadek<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>acusativo<s n="n"/><s n="m"/></l><r>biernik<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>avión<s n="n"/><s n="m"/></l><r>samolot<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>aeropuerto<s n="n"/><s n="m"/></l><r>lotnisko<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>algoritmo<s n="n"/><s n="m"/></l><r>algorytm<s n="n"/><s n="mi"/></r></p></e>
@@ -40,24 +38,62 @@
     <e><p><l>ambiguedad<s n="n"/><s n="f"/></l><r>wieloznaczność<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>anarchista<s n="n"/><s n="mf"/></l><r>anarchista<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>ángel<s n="n"/><s n="m"/></l><r>anioł<s n="n"/><s n="ma"/></r></p></e>
+    <e><p><l>año<s n="n"/><s n="m"/></l><r>rok<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>casa<s n="n"/><s n="f"/></l><r>dom<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>caso<s n="n"/><s n="m"/></l><r>przypadek<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>categoría<s n="n"/><s n="f"/></l><r>kategoria<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>consonante<s n="n"/><s n="f"/></l><r>spółgłoska<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>dativo<s n="n"/><s n="m"/></l><r>celownik<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>desinencia<s n="n"/><s n="f"/></l><r>końcówka<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>día<s n="n"/><s n="m"/></l><r>dzień<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>factor<s n="n"/><s n="m"/></l><r>czynnik<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>flexión<s n="n"/><s n="f"/></l><r>fleksja<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>forma<s n="n"/><s n="f"/></l><r>forma<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>genitivo<s n="n"/><s n="m"/></l><r>dopełniacz<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>género<s n="n"/><s n="m"/></l><r>rodzaj<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>influencia<s n="n"/><s n="f"/></l><r>wpływ<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>instituto<s n="n"/><s n="m"/></l><r>liceum<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>instrumental<s n="n"/><s n="m"/></l><r>narzędnik<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>juventud<s n="n"/><s n="f"/></l><r>młodość<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>lengua<s n="n"/><s n="f"/></l><r>język<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>locativo<s n="n"/><s n="m"/></l><r>miejscownik<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>mundo<s n="n"/><s n="m"/></l><r>świat<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>nominativo<s n="n"/><s n="m"/></l><r>mianownik<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>número<s n="n"/><s n="m"/></l><r>liczba<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>personalidad<s n="n"/><s n="f"/></l><r>osobowość<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sustantivo<s n="n"/><s n="m"/></l><r>rzeczownik<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>té<s n="n"/><s n="m"/></l><r>herbata<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>tema<s n="n"/><s n="m"/></l><r>temat<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>toalla<s n="n"/><s n="f"/></l><r>ręcznik<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>torre<s n="n"/><s n="m"/></l><r>wieża<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>mundo<s n="n"/><s n="m"/></l><r>świat<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>sustantivo<s n="n"/><s n="m"/></l><r>rzeczownik<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>año<s n="n"/><s n="m"/></l><r>rok<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>juventud<s n="n"/><s n="f"/></l><r>młodość<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>día<s n="n"/><s n="m"/></l><r>dzień<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>vocal<s n="n"/><s n="f"/></l><r>samogłoska<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>vocativo<s n="n"/><s n="m"/></l><r>wołacz<s n="n"/><s n="mi"/></r></p></e>
+    
 
     <!-- SECCIÓN: Adjetivos -->
 
+    <e><p><l>animado<s n="adj"/></l><r>żywotny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>blanco<s n="adj"/></l><r>biały<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>blando<s n="adj"/></l><r>miękki<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>dependiente<s n="adj"/></l><r>zależny<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>duro<s n="adj"/></l><r>twardy<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>español<s n="adj"/></l><r>hiszpański<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>femenino<s n="adj"/></l><r>żeński<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>fonético<s n="adj"/></l><r>fonetyczny<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>gramatical<s n="adj"/></l><r>gramatyczny<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>inanimado<s n="adj"/></l><r>nieżywotny<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>masculino<s n="adj"/></l><r>męski<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>negro<s n="adj"/></l><r>czarny<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>polaco<s n="adj"/></l><r>polski<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>neutro<s n="adj"/></l><r>nijaki<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>significativo<s n="adj"/></l><r>znaczeniowy<s n="adj"/><s n="sint"/></r></p></e>
 
     <!-- SECCIÓN: Verbos -->
 
-    <e><p><l>ser<s n="vbser"/></l><r>być<s n="vbser"/></r></p></e>
     <e><p><l>declinar<s n="vblex"/></l><r>odmieniać<s n="vblex"/></r></p></e>
+    <e><p><l>distinguir<s n="vblex"/></l><r>rozróżniać<s n="vblex"/></r></p></e>
+    <e><p><l>tener<s n="vblex"/></l><r>mieć<s n="vblex"/></r></p></e>
+    <e><p><l>ser<s n="vbser"/></l><r>być<s n="vbser"/></r></p></e>
 
     <!-- SECCIÓN: Puntuación -->
 
