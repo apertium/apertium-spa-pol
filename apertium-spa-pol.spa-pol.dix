@@ -2,6 +2,7 @@
   <sdefs>  <!-- esta lista debe ser completa -->
     <sdef n="n"      c="Sustantivo"/>
     <sdef n="vbser"  c="El verbo 'ser'"/>
+    <sdef n="vblex"  c="Verbos léxicos"/>
     <sdef n="det"    c="Determinante"/>
     <sdef n="adj"    c="Adjectivo"/>
 
