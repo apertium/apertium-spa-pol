@@ -4,7 +4,12 @@
     <sdef n="vbser"  c="El verbo 'ser'"/>
     <sdef n="vblex"  c="Verbos léxicos"/>
     <sdef n="det"    c="Determinante"/>
-    <sdef n="adj"    c="Adjectivo"/>
+    <sdef n="adj"    c="Adjetivo"/>
+    <sdef n="pr"     c="Preposición"/>
+    <sdef n="adv"    c="Adverbio"/>
+    <sdef n="cnjcoo" c="Conjunción copulativa"/>
+    <sdef n="cnjadv" c="Conjunción adverbial"/>
+    <sdef n="cnjsub" c="Conjunción de subordinación"/>
 
     <sdef n="nt"     c="Neutro"/>
     <sdef n="m"      c="Masculino"/>
@@ -26,6 +31,13 @@
 
     <e r="LR"><p><l>el<s n="det"/><s n="def"/></l><r></r></p></e>
 
+    <!-- SECCIÓN: Preposiciones -->
+
+    <e><p><l>en<s n="pr"/></l><r>na<s n="pr"/></r></p></e>
+    <e><p><l>en<s n="pr"/></l><r>w<s n="pr"/></r></p></e>
+    <e><p><l>de<s n="pr"/></l><r>z<s n="pr"/></r></p></e>
+    <e><p><l>desde<s n="pr"/></l><r>z<s n="pr"/></r></p></e>
+
     <!-- SECCIÓN: Sustantivos -->
     
     <e><p><l>accidente<s n="n"/><s n="m"/></l><r>wypadek<s n="n"/><s n="mi"/></r></p></e>
@@ -43,10 +55,15 @@
     <e><p><l>casa<s n="n"/><s n="f"/></l><r>dom<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>caso<s n="n"/><s n="m"/></l><r>przypadek<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>categoría<s n="n"/><s n="f"/></l><r>kategoria<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>conjugación<s n="n"/><s n="f"/></l><r>koniugacja<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>conjugación<s n="n"/><s n="f"/></l><r>odmiana<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>consonante<s n="n"/><s n="f"/></l><r>spółgłoska<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>dativo<s n="n"/><s n="m"/></l><r>celownik<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>declinación<s n="n"/><s n="f"/></l><r>deklinacja<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>declinación<s n="n"/><s n="f"/></l><r>odmiana<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>desinencia<s n="n"/><s n="f"/></l><r>końcówka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>día<s n="n"/><s n="m"/></l><r>dzień<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>ejemplo<s n="n"/><s n="m"/></l><r>wzór<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>factor<s n="n"/><s n="m"/></l><r>czynnik<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>flexión<s n="n"/><s n="f"/></l><r>fleksja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>forma<s n="n"/><s n="f"/></l><r>forma<s n="n"/><s n="f"/></r></p></e>
@@ -62,6 +79,8 @@
     <e><p><l>nominativo<s n="n"/><s n="m"/></l><r>mianownik<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>número<s n="n"/><s n="m"/></l><r>liczba<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>personalidad<s n="n"/><s n="f"/></l><r>osobowość<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>plural<s n="n"/><s n="m"/></l><r>liczba<b/>mnoga<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>singular<s n="n"/><s n="m"/></l><r>liczba<b/>pojedyncza<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sustantivo<s n="n"/><s n="m"/></l><r>rzeczownik<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>té<s n="n"/><s n="m"/></l><r>herbata<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>tema<s n="n"/><s n="m"/></l><r>temat<s n="n"/><s n="m"/></r></p></e>
@@ -82,12 +101,21 @@
     <e><p><l>femenino<s n="adj"/></l><r>żeński<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>fonético<s n="adj"/></l><r>fonetyczny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>gramatical<s n="adj"/></l><r>gramatyczny<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>igual<s n="adj"/></l><r>równy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>inanimado<s n="adj"/></l><r>nieżywotny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>masculino<s n="adj"/></l><r>męski<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>negro<s n="adj"/></l><r>czarny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>polaco<s n="adj"/></l><r>polski<s n="adj"/><s n="sint"/></r></p></e>
+    
     <e><p><l>neutro<s n="adj"/></l><r>nijaki<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>significativo<s n="adj"/></l><r>znaczeniowy<s n="adj"/><s n="sint"/></r></p></e>
+
+    <!-- SECCIÓN: Adverbios -->
+
+    <e><p><l>principalmente<s n="adv"/></l><r>głównie<s n="adv"/></r></p></e>
+    <e><p><l>como<b/>se<b/>puede<b/>ver<s n="adv"/></l><r>jak<b/>widać<s n="adv"/></r></p></e>
+
+
 
     <!-- SECCIÓN: Verbos -->
 
@@ -95,6 +123,9 @@
     <e><p><l>distinguir<s n="vblex"/></l><r>rozróżniać<s n="vblex"/></r></p></e>
     <e><p><l>tener<s n="vblex"/></l><r>mieć<s n="vblex"/></r></p></e>
     <e><p><l>ser<s n="vbser"/></l><r>być<s n="vbser"/></r></p></e>
+    <e><p><l>terminar<s n="vblex"/></l><r>zakończyć<s n="vblex"/></r></p></e>
+    <e><p><l>usar<s n="vblex"/></l><r>używać<s n="vblex"/></r></p></e>
+    
 
     <!-- SECCIÓN: Puntuación -->
 
