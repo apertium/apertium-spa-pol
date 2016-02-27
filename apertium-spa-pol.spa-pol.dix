@@ -14,11 +14,11 @@
 
     <sdef n="nt"     c="Neutro"/>
     <sdef n="m"      c="Masculino"/>
-    <sdef n="mf"     c="Masculino / feminino"/>
+    <sdef n="mf"     c="Masculino / femenino"/>
     <sdef n="mi"     c="Masculino (inanimado)"/>
     <sdef n="mp"     c="Masculino (personal)"/>
     <sdef n="ma"     c="Masculino (animado)"/>
-    <sdef n="f"      c="Feminino"/>
+    <sdef n="f"      c="Femenino"/>
 
     <sdef n="def"    c="Definido"/>
     <sdef n="sint"   c="Sintético"/>
@@ -33,7 +33,7 @@
     <e r="LR"><p><l>el<s n="det"/><s n="def"/></l><r></r></p></e>
     <e><p><l>este<s n="det"/></l><r>taki<s n="det"/></r></p></e>
     <e><p><l>este<s n="det"/></l><r>ten<s n="det"/><s n="dem"/></r></p></e>
-    <e><p><l>cada<s n="det"/><s n="ind"/></l><r>każdy<s n="det"/><s n="ind"/></r></p></e>
+    <e><p><l>cada<s n="det"/><s n="ind"/></l><r>każdy<s n="prn"/><s n="ind"/></r></p></e>
 
     <!-- SECCIÓN: Conjunciones -->
 
@@ -68,8 +68,7 @@
 
     <e><p><l>alguno<s n="prn"/></l><r>niektóry<s n="prn"/></r></p></e>
     <e><p><l>alguno<s n="prn"/></l><r>jakiś<s n="prn"/></r></p></e>
-
-
+    <e><p><l>se<s n="prn"/></l><r>się<s n="prn"/></r></p></e>
     <e><p><l>cual<s n="rel"/></l><r>który<s n="pr"/></r></p></e>
     <e><p><l>todo<s n="prn"/></l><r>wszyscy<s n="prn"/></r></p></e>
     
@@ -77,6 +76,15 @@
 
     <e><p><l>un<s n="num"/></l><r>jeden<s n="num"/></r></p></e>
     <e><p><l>dos<s n="num"/></l><r>dwa<s n="num"/></r></p></e>
+    <e><p><l>tres<s n="num"/></l><r>trzy<s n="num"/></r></p></e>
+    <e><p><l>cuatro<s n="num"/></l><r>cztery<s n="num"/></r></p></e>
+    <e><p><l>cinco<s n="num"/></l><r>pięć<s n="num"/></r></p></e>
+    <e><p><l>seis<s n="num"/></l><r>sześć<s n="num"/></r></p></e>
+    <e><p><l>siete<s n="num"/></l><r>siedem<s n="num"/></r></p></e>
+    <e><p><l>ocho<s n="num"/></l><r>osiem<s n="num"/></r></p></e>
+    <e><p><l>nueve<s n="num"/></l><r>dziewięć<s n="num"/></r></p></e>
+    <e><p><l>diez<s n="num"/></l><r>dziesięć<s n="num"/></r></p></e>
+    
 
 
     <!-- SECCIÓN: Sustantivos -->
@@ -93,6 +101,7 @@
     <e><p><l>afijo<s n="n"/><s n="m"/></l><r>afiks<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>alfabeto<s n="n"/><s n="m"/></l><r>alfabet<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>ambigüedad<s n="n"/><s n="f"/></l><r>wieloznaczność<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ambigüedad<s n="n"/><s n="f"/></l><r>dwuznaczność<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>anáfora<s n="n"/><s n="f"/></l><r>anafora<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>análisis<s n="n"/><s n="m"/></l><r>analiza<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>anglicismo<s n="n"/><s n="m"/></l><r>anglicyzm<s n="n"/><s n="mi"/></r></p></e>
@@ -102,15 +111,14 @@
     <e><p><l>avión<s n="n"/><s n="m"/></l><r>samolot<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>aeropuerto<s n="n"/><s n="m"/></l><r>lotnisko<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>algoritmo<s n="n"/><s n="m"/></l><r>algorytm<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>alianza<s n="n"/><s n="f"/></l><r>alians<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>alianza<s n="n"/><s n="f"/></l><r>pakt<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>alianza<s n="n"/><s n="f"/></l><r>sojusz<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>alternancia<s n="n"/><s n="f"/></l><r>oboczność<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>ambiguedad<s n="n"/><s n="f"/></l><r>dwuznaczność<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>ambiguedad<s n="n"/><s n="f"/></l><r>wieloznaczność<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>anarchista<s n="n"/><s n="mf"/></l><r>anarchista<s n="n"/><s n="mp"/></r></p></e>
+    <e><p><l>anarquista<s n="n"/><s n="mf"/></l><r>anarchista<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>ángel<s n="n"/><s n="m"/></l><r>anioł<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>año<s n="n"/><s n="m"/></l><r>rok<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>aspecto<s n="n"/><s n="m"/></l><r>aspekt<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>aspecto<b/>del<b/>verbo<s n="n"/><s n="m"/></l><r>postać<g><b/>czasownika</g><s n="n"/><s n="f"/></r></p></e>
     <e><p><l>asimilación<s n="n"/><s n="f"/></l><r>upodobnienie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>atributo<s n="n"/><s n="m"/></l><r>orzecznik<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>atributo<s n="n"/><s n="m"/></l><r>przydawka<s n="n"/><s n="f"/></r></p></e>
@@ -121,9 +129,12 @@
     <e><p><l>caso<s n="n"/><s n="m"/></l><r>przypadek<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>categoría<s n="n"/><s n="f"/></l><r>kategoria<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>causa<s n="n"/><s n="f"/></l><r>przyczyna<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>coma<s n="n"/><s n="m"/></l><r>przecienk<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>coma<s n="n"/><s n="m"/></l><r>przecinek<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>comillas<s n="n"/><s n="f"/><s n="pl"/></l><r>cudzysłów<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>complemento<s n="n"/><s n="m"/></l><r>dopełnienie<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>complemento<b/>directo<s n="n"/><s n="m"/></l><r>dopełnienie<b/>bliższe<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>complemento<b/>indirecto<s n="n"/><s n="m"/></l><r>dopełnienie<b/>dalsze<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>complemento<b/>circunstancial<s n="n"/><s n="m"/></l><r>okolicznik<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>complemento<b/>circunstancial<b/>de<b/>objeto<s n="n"/><s n="m"/></l><r>okolicznik<b/>celu<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>complemento<b/>circunstancial<b/>de<b/>tiempo<s n="n"/><s n="m"/></l><r>okolicznik<b/>czasu<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>complemento<b/>circunstancial<b/>de<b/>lugar<s n="n"/><s n="m"/></l><r>okolicznik<b/>miejsca<s n="n"/><s n="mi"/></r></p></e>
@@ -134,10 +145,11 @@
     <e><p><l>complemento<b/>circunstancial<b/>de<b/>medida<s n="n"/><s n="m"/></l><r>okolicznik<b/>miary<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>complemento<b/>circunstancial<b/>de<b/>condición<s n="n"/><s n="m"/></l><r>okolicznik<b/>warunku<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>composición<s n="n"/><s n="f"/></l><r>budowa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>composición<s n="n"/><s n="f"/></l><r>złożenie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>comunicación<s n="n"/><s n="f"/></l><r>porozumiewanie<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>concordancia<s n="n"/><s n="f"/></l><r>zgoda<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>condición<s n="n"/><s n="f"/></l><r>warunek<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>conjugación<s n="n"/><s n="f"/></l><r>koniugacja<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>conjugación<s n="n"/><s n="f"/></l><r>odmiana<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>conjunción<s n="n"/><s n="f"/></l><r>spójnik<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>conjunto<s n="n"/><s n="m"/></l><r>zbiór<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>consonante<s n="n"/><s n="f"/></l><r>spółgłoska<s n="n"/><s n="f"/></r></p></e>
@@ -146,7 +158,6 @@
     <e><p><l>cópula<s n="n"/><s n="f"/></l><r>łącznik<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>dativo<s n="n"/><s n="m"/></l><r>celownik<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>declinación<s n="n"/><s n="f"/></l><r>deklinacja<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>declinación<s n="n"/><s n="f"/></l><r>odmiana<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>definición<s n="n"/><s n="f"/></l><r>definicja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>derivación<s n="n"/><s n="f"/></l><r>derywacja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>derivado<s n="n"/><s n="m"/></l><r>derywat<s n="n"/><s n="mi"/></r></p></e>
@@ -162,6 +173,7 @@
     <e><p><l>discurso<s n="n"/><s n="m"/></l><r>dyskurs<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>distinción<s n="n"/><s n="f"/></l><r>wyróżnienie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>división<s n="n"/><s n="f"/></l><r>dzielenie<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>dos<b/>puntos<s n="n"/><s n="m"/></l><r>dwukropek<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>ejemplo<s n="n"/><s n="m"/></l><r>wzór<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>emoción<s n="n"/><s n="f"/></l><r>emocja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>enclítica<s n="n"/><s n="f"/></l><r>enklityka<s n="n"/><s n="f"/></r></p></e>
@@ -177,10 +189,12 @@
     <e><p><l>exclamación<s n="n"/><s n="f"/></l><r>wykrzyknik<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>expresión<s n="n"/><s n="f"/></l><r>wyrażenie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>expresión<s n="n"/><s n="f"/></l><r>wyrażanie<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>expresión<b/>idiomática<s n="n"/><s n="f"/></l><r>frazeologizm<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>expresión<b/>idiomática<s n="n"/><s n="f"/></l><r>związek<b/>frazeologiczny n="n"/><s n="mi"/></r></p></e>
     <e><p><l>factor<s n="n"/><s n="m"/></l><r>czynnik<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>familia<s n="n"/><s n="f"/></l><r>rodzina<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>finalidad<s n="n"/><s n="f"/></l><r>cel<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>flexión<s n="n"/><s n="f"/></l><r>fleksja<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>flexión<s n="n"/><s n="f"/></l><r>odmiana<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>fonema<s n="n"/><s n="m"/></l><r>fonem<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>fonética<s n="n"/><s n="f"/></l><r>fonetyka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>forma<s n="n"/><s n="f"/></l><r>forma<s n="n"/><s n="f"/></r></p></e>
@@ -194,8 +208,9 @@
     <e><p><l>grado<s n="n"/><s n="m"/></l><r>stopień<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>gradación<s n="n"/><s n="f"/></l><r>stopniowanie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>grupo<s n="n"/><s n="m"/></l><r>grupa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>grupo<s n="n"/><s n="m"/></l><r>zespół<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>guión<s n="n"/><s n="m"/></l><r>myślnik<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>guión<s n="n"/><s n="m"/></l><r>pauza<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>guión<b/>largo<s n="n"/><s n="m"/></l><r>pauza<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>habla<s n="n"/><s n="f"/></l><r>mowa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>historia<s n="n"/><s n="f"/></l><r>historia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>homonimia<s n="n"/><s n="f"/></l><r>homonimia<s n="n"/><s n="f"/></r></p></e>
@@ -206,11 +221,13 @@
     <e><p><l>indicador<s n="n"/><s n="m"/></l><r>wskaźnik<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>infinitivo<s n="n"/><s n="m"/></l><r>bezokolicznik<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>influencia<s n="n"/><s n="f"/></l><r>wpływ<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>insonorización<s n="n"/><s n="f"/></l><r>ubezdźwięcznienie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>instituto<s n="n"/><s n="m"/></l><r>liceum<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>instrumental<s n="n"/><s n="m"/></l><r>narzędnik<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>intensidad<s n="n"/><s n="f"/></l><r>natężenie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>interfijo<s n="n"/><s n="m"/></l><r>wrostek<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>interrogación<s n="n"/><s n="f"/></l><r>pytajnik<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>interrogación<s n="n"/><s n="f"/></l><r>zapytanie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>juventud<s n="n"/><s n="f"/></l><r>młodość<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>lengua<s n="n"/><s n="f"/></l><r>język<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>letra<s n="n"/><s n="f"/></l><r>litera<s n="n"/><s n="f"/></r></p></e>
@@ -236,10 +253,14 @@
     <e><p><l>novedad<s n="n"/><s n="f"/></l><r>nowość<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>numeral<s n="n"/><s n="m"/></l><r>liczebnik<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>número<s n="n"/><s n="m"/></l><r>liczba<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>número<b/>cardinal<s n="n"/><s n="m"/></l><r>liczebnik<b/>porządkowy<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>oración<s n="n"/><s n="f"/></l><r>zdanie<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>oración<b/>compuesta<b/>subordinada<s n="n"/><s n="f"/></l><r>zdanie<b/>złożone<b/>podrzędnie<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>oración<b/>compuesta<b/>coordinada<s n="n"/><s n="f"/></l><r>zdanie<b/>złożone<b/>współrzędnie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>ortografía<s n="n"/><s n="f"/></l><r>ortografia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ortografía<s n="n"/><s n="f"/></l><r>pisownia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>orden<s n="n"/><s n="m"/></l><r>kolejność<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>orden<s n="n"/><s n="m"/></l><r>szyk<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>órgano<s n="n"/><s n="m"/></l><r>narząd<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>palabra<s n="n"/><s n="f"/></l><r>wyraz<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>papel<s n="n"/><s n="m"/></l><r>funkcja<s n="n"/><s n="f"/></r></p></e>
@@ -248,10 +269,12 @@
     <e><p><l>parte<b/>de<b/>la<b/>oración<s n="n"/><s n="f"/></l><r>część<b/>mowy<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>elemento<b/>de<b/>la<b/>oración<s n="n"/><s n="m"/></l><r>część<b/>zdania<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>participio<s n="n"/><s n="m"/></l><r>imiesłów<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>partícula<s n="n"/><s n="f"/></l><r>partykuła<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>permiso<s n="n"/><s n="m"/></l><r>przyzwolenie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>permiso<s n="n"/><s n="m"/></l><r>pozwolenie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>persona<s n="n"/><s n="f"/></l><r>osoba<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>personalidad<s n="n"/><s n="f"/></l><r>osobowość<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pertenencia<s n="n"/><s n="f"/></l><r>przynależność<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>plural<s n="n"/><s n="m"/></l><r>liczba<b/>mnoga<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>polisemia<s n="n"/><s n="f"/></l><r>polisemia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>predicado<s n="n"/><s n="m"/></l><r>orzeczenie<s n="n"/><s n="nt"/></r></p></e>
@@ -261,16 +284,20 @@
     <e><p><l>preposición<s n="n"/><s n="f"/></l><r>przyimek<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>préstamo<s n="n"/><s n="m"/></l><r>zapożyczenie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>proceso<s n="n"/><s n="m"/></l><r>proces<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>proclítica<s n="n"/><s n="f"/></l><r>proklityka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pronombre<s n="n"/><s n="m"/></l><r>zaimek<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>pronunciación<s n="n"/><s n="f"/></l><r>wymówienie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>pronunciación<s n="n"/><s n="f"/></l><r>wymowa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>propiedad<s n="n"/><s n="f"/></l><r>właściwość<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>polaco<s n="n"/><s n="m"/></l><r>polszczyzna<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>punto<s n="n"/><s n="m"/></l><r>kropka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>punto<b/>y<b/>coma<s n="n"/><s n="m"/></l><r>średnik<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>puntuación<s n="n"/><s n="f"/></l><r>interpunkcja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>puntuación<s n="n"/><s n="f"/></l><r>przestankowanie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>raíz<s n="n"/><s n="f"/></l><r>rdzeń<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>relación<s n="n"/><s n="f"/></l><r>związek<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>régimen<s n="n"/><s n="m"/></l><r>rząd<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>serie<s n="n"/><s n="f"/></l><r>szereg<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>sigla<s n="n"/><s n="f"/></l><r>skrótowiec<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>significado<s n="n"/><s n="m"/></l><r>znaczenie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>signo<s n="n"/><s n="m"/></l><r>znak<s n="n"/><s n="mi"/></r></p></e>
@@ -284,17 +311,19 @@
     <e><p><l>sinónimo<s n="n"/><s n="m"/></l><r>synonim<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>sintaxis<s n="n"/><s n="f"/></l><r>składnia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sonido<s n="n"/><s n="m"/></l><r>głoska<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sonorización<s n="n"/><s n="f"/></l><r>udźwięcznienie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>sufijo<s n="n"/><s n="m"/></l><r>sufiks<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>sufijo<s n="n"/><s n="m"/></l><r>przyrostek<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>sujeto<s n="n"/><s n="m"/></l><r>podmiot<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>sustantivo<s n="n"/><s n="m"/></l><r>rzeczownik<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>supletismo<s n="n"/><s n="m"/></l><r>supletywizm<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>té<s n="n"/><s n="m"/></l><r>herbata<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>tema<s n="n"/><s n="m"/></l><r>temat<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>término<s n="n"/><s n="m"/></l><r>określenie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>terminología<s n="n"/><s n="f"/></l><r>terminologia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>texto<s n="n"/><s n="m"/></l><r>tekst<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>tiempo<s n="n"/><s n="m"/></l><r>czas<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>tilde<s n="n"/><s n="f"/></l><r>akcent<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>tilde<s n="n"/><s n="f"/></l><r>akcent<b/>graficzny<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>tipo<s n="n"/><s n="m"/></l><r>typ<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>toalla<s n="n"/><s n="f"/></l><r>ręcznik<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>torre<s n="n"/><s n="f"/></l><r>wieża<s n="n"/><s n="f"/></r></p></e>
@@ -305,6 +334,11 @@
     <e><p><l>vocal<s n="n"/><s n="f"/></l><r>samogłoska<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vocativo<s n="n"/><s n="m"/></l><r>wołacz<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>voz<s n="n"/><s n="f"/></l><r>głos<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>voz<b/>pasiva<s n="n"/><s n="f"/></l><r>strona<b/>bierna<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>voz<b/>activa<s n="n"/><s n="f"/></l><r>strona<b/>czynna<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>voz<b/>refleja<s n="n"/><s n="f"/></l><r>strona<b/>zwrotna<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>yuxtaposición<s n="n"/><s n="f"/></l><r>zestawienie<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>yuxtaposición<s n="n"/><s n="f"/></l><r>zrost<s n="n"/><s n="mi"/></r></p></e>
 
     <!-- SECCIÓN: Adjetivos -->
 
@@ -313,6 +347,8 @@
     <e><p><l>adjetival<s n="adj"/></l><r>odprzymiotnikowy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>adverbial<s n="adj"/></l><r>przysłówkowy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>adverbial<s n="adj"/></l><r>okolicznikowy<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>adversativo<s n="adj"/></l><r>przeciwstawny<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>alternativo<s n="adj"/></l><r>przestawny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>ambiguo<s n="adj"/></l><r>wieloznaczny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>animado<s n="adj"/></l><r>żywotny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>anterior<s n="adj"/></l><r>poprzedni<s n="adj"/><s n="sint"/></r></p></e>
@@ -329,9 +365,14 @@
     <e><p><l>colectivo<s n="adj"/></l><r>zbiorowy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>coloquial<s n="adj"/></l><r>potoczny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>compuesto<s n="adj"/></l><r>złożony<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>compuesto<s n="adj"/></l><r>szeregowy<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>compuesto<s n="adj"/></l><r>rozwinięty<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>común<s n="adj"/></l><r>pospolity<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>consonántico<s n="adj"/></l><r>głoskowy<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>constituyente<s n="adj"/></l><r>składowy<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>copulativo<s n="adj"/></l><r>łączny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>coordinado<s n="adj"/></l><r>współrzędny<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>coronal<s n="adj"/></l><r>przedniojęzykowy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>correcto<s n="adj"/></l><r>właściwy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>incorrecto<s n="adj"/></l><r>niewłaściwy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>correcto<s n="adj"/></l><r>poprawny<s n="adj"/><s n="sint"/></r></p></e>
@@ -342,6 +383,7 @@
     <e><p><l>derivado<s n="adj"/></l><r>pochodny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>derivativo<s n="adj"/></l><r>derywacyjny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>descriptivo<s n="adj"/></l><r>opisowy<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>disyuntivo<s n="adj"/></l><r>rozłączny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>divisible<s n="adj"/></l><r>podzielny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>duro<s n="adj"/></l><r>twardy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>emocional<s n="adj"/></l><r>emocjonalny<s n="adj"/><s n="sint"/></r></p></e>
@@ -350,7 +392,9 @@
     <e><p><l>específico<s n="adj"/></l><r>specjalny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>estilístico<s n="adj"/></l><r>stylistyczny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>exclamativo<s n="adj"/></l><r>wykrzyknikowy<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>explicativo<s n="adj"/></l><r>wynikowy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>femenino<s n="adj"/></l><r>żeński<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>fijo<s n="adj"/></l><r>stały<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>final<s n="adj"/></l><r>końcowy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>flexivo<s n="adj"/></l><r>fleksyjny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>fonético<s n="adj"/></l><r>fonetyczny<s n="adj"/><s n="sint"/></r></p></e>
@@ -358,6 +402,8 @@
     <e><p><l>fraccionario<s n="adj"/></l><r>ułamkowy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>fraseológico<s n="adj"/></l><r>frazeologiczny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>fuerte<s n="adj"/></l><r>silny<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>fricativo<s n="adj"/></l><r>szczelinowy<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>gráfico<s n="adj"/></l><r>graficzny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>gramatical<s n="adj"/></l><r>gramatyczny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>general<s n="adj"/></l><r>ogólny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>histórico<s n="adj"/></l><r>historyczny<s n="adj"/><s n="sint"/></r></p></e>
@@ -367,6 +413,7 @@
     <e><p><l>indivisible<s n="adj"/></l><r>niepodzielny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>indoeuropeo<s n="adj"/></l><r>indoeuropejski<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>innecesario<s n="adj"/></l><r>zbędny<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>intercalado<s n="adj"/></l><r>wpleciony<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>interrogativo<s n="adj"/></l><r>pytający<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>interrogativo<s n="adj"/></l><r>pytajny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>igual<s n="adj"/></l><r>równy<s n="adj"/><s n="sint"/></r></p></e>
@@ -374,6 +421,7 @@
     <e><p><l>indefinido<s n="adj"/></l><r>nieokreślony<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>irregular<s n="adj"/></l><r>nieregularny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>irregular<s n="adj"/></l><r>oboczny<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>labial<s n="adj"/></l><r>wargowy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>léxico<s n="adj"/></l><r>leksykalny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>lingüístico<s n="adj"/></l><r>językowy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>lógico<s n="adj"/></l><r>logiczny<s n="adj"/><s n="sint"/></r></p></e>
@@ -383,6 +431,8 @@
     <e><p><l>masculino<b/>animado<s n="adj"/></l><r>męskożywotny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>masculino<b/>personal<s n="adj"/></l><r>męskoosobowy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>masculino<b/>no<b/>personal<s n="adj"/></l><r>niemęskoosobowy<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>metafórico<s n="adj"/></l><r>metaforyczny<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>metafórico<s n="adj"/></l><r>przenośny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>mixto<s n="adj"/></l><r>mieszany<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>modal<s n="adj"/></l><r>modalny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>monosílabo<s n="adj"/></l><r>jednosylabowy<s n="adj"/><s n="sint"/></r></p></e>
@@ -390,13 +440,16 @@
     <e><p><l>móvil<s n="adj"/></l><r>ruchomy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>multiplicativo<s n="adj"/></l><r>mnożny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>nasal<s n="adj"/></l><r>nosowy<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>negativo<s n="adj"/></l><r>wykluczający<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>negro<s n="adj"/></l><r>czarny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>neutro<s n="adj"/></l><r>nijaki<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>nominal<s n="adj"/></l><r>rzeczowny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>nominal<s n="adj"/></l><r>rzeczownikowy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>nominal<s n="adj"/></l><r>odrzeczownikowy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>nominal<s n="adj"/></l><r>imienny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>nuevo<s n="adj"/></l><r>nowy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>numérico<s n="adj"/></l><r>liczebny<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>oclusivo<s n="adj"/></l><r>zwarty<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>omitido<s n="adj"/></l><r>domyślny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>opuesto<s n="adj"/></l><r>przeciwstawny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>oral<s n="adj"/></l><r>ustny<s n="adj"/><s n="sint"/></r></p></e>
@@ -406,6 +459,7 @@
     <e><p><l>pasivo<s n="adj"/></l><r>bierny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>personal<s n="adj"/></l><r>osobowy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>polaco<s n="adj"/></l><r>polski<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>principal<s n="adj"/></l><r>główny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>productivo<s n="adj"/></l><r>produktywny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>improductivo<s n="adj"/></l><r>nieproduktywny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>posesivo<s n="adj"/></l><r>dzierżawczy<s n="adj"/><s n="sint"/></r></p></e>
@@ -416,18 +470,28 @@
     <e><p><l>regular<s n="adj"/></l><r>regularny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>relacional<s n="adj"/></l><r>relacyjny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>relativo<s n="adj"/></l><r>względny<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>sencillo<s n="adj"/></l><r>prosty<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>sencillo<s n="adj"/></l><r>nierozwinięty<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>significativo<s n="adj"/></l><r>znaczeniowy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>simple<s n="adj"/></l><r>pojedynczy<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>sinónimo<s n="adj"/></l><r>synonimiczny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>sintáctico<s n="adj"/></l><r>składniowy<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>sonante<s n="adj"/></l><r>półotwarty<s n="det"/><s n="sint"/></r></p></e>
     <e><p><l>sonoro<s n="adj"/></l><r>dźwięczny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>sordo<s n="adj"/></l><r>bezdźwięczny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>subordinado<s n="adj"/></l><r>podrzędny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>superior<s n="adj"/></l><r>nadrzędny<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>transitivo<s n="adj"/></l><r>przechodni<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>intransitivo<s n="adj"/></l><r>nieprzechodni<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>unipersonal<s n="adj"/></l><r>bezpodmiotowy<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>variado<s n="adj"/></l><r>wieloraki<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>velar<s n="adj"/></l><r>tylnojęzykowy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>verbal<s n="adj"/></l><r>czasownikowy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>verbal<s n="adj"/></l><r>odczasownikowy<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>verbal<s n="adj"/></l><r>słowny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>visible<s n="adj"/></l><r>widoczny<s n="adj"/><s n="sint"/></r></p></e>
-
+    <e><p><l>sin<b/>acento<s n="adj"/><r>bezakcentowy<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>sin<b/>nexo<s n="adj"/><r>bezspójnikowy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>de<b/>la<b/>palabra<s n="adj"/><r>wyrazowy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>de<b/>complemento<s n="adj"/><r>dopełnieniowy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>de<b/>sujeto<s n="adj"/><r>podmiotowy<s n="adj"/><s n="sint"/></r></p></e>
@@ -435,6 +499,7 @@
     <e><p><l>de<b/>atributo<s n="adj"/><r>orzecznikowy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>de<b/>la<b/>frase<s n="adj"/><r>zdaniowy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>condicional<s n="adj"/></l><r>przypuszczający<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>condicional<s n="adj"/></l><r>warunkowy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>convenido<s n="adj"/></l><r>umowny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>imperativo<s n="adj"/></l><r>rozkazujący<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>declinable<s n="adj"/></l><r>odmienny<s n="adj"/><s n="sint"/></r></p></e>
@@ -442,6 +507,7 @@
     <e><p><l>indicativo<s n="adj"/></l><r>oznajmujący<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>indicativo<s n="adj"/></l><r>orzekający<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>de<b/>puntuación<s n="adj"/><r>interpunkcyjny<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>de<b/>puntuación<s n="adj"/><r>przestankowy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>dialectal<s n="adj"/></l><r>dialektalny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>presente<s n="adj"/></l><r>teraźniejszy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>pasado<s n="adj"/></l><r>przeszły<s n="adj"/><s n="sint"/></r></p></e>
@@ -475,17 +541,21 @@
     <e><p><l>entre<b/>comillas<s n="adv"/></l><r>w<b/>cudzysłowie<s n="adv"/></r></p></e>
     <e><p><l>dos<b/>veces<s n="adv"/></l><r>dwukrotnie<s n="adv"/></r></p></e>
     <e><p><l>varias<b/>veces<s n="adv"/></l><r>wielokrotnie<s n="adv"/></r></p></e>
+    <e><p><l>formativo<s n="adv"/></l><r>słowotwórczo<s n="adv"/></r></p></e>
+    <e><p><l>sintácticamente<s n="adv"/></l><r>składniowo<s n="adv"/></r></p></e>
     
 
 
 
     <!-- SECCIÓN: Verbos -->
 
+    <e><p><l>acompañar<s n="vblex"/></l><r>towarzyszyć<s n="vblex"/></r></p></e>
     <e><p><l>aparecer<s n="vblex"/></l><r>występować<s n="vblex"/></r></p></e>
     <e><p><l>comunicar<s n="vblex"/></l><r>przekazywać<s n="vblex"/></r></p></e>
     <e><p><l>consistir<s n="vblex"/></l><r>polegać<s n="vblex"/></r></p></e>
     <e><p><l>declinar<s n="vblex"/></l><r>odmieniać<s n="vblex"/></r></p></e>
     <e><p><l>definir<s n="vblex"/></l><r>określać<s n="vblex"/></r></p></e>
+    <e><p><l>destacar<s n="vblex"/></l><r>uwydatniać<s n="vblex"/></r></p></e>
     <e><p><l>difuminar<s n="vblex"/></l><r>zamazywać<s n="vblex"/></r></p></e>
     <e><p><l>distinguir<s n="vblex"/></l><r>rozróżniać<s n="vblex"/></r></p></e>
     <e><p><l>encontrar<s n="vblex"/></l><r>znajdować<s n="vblex"/></r></p></e>
@@ -498,7 +568,7 @@
     <e><p><l>omitir<s n="vblex"/></l><r>mijać<s n="vblex"/></r></p></e>
     <e><p><l>responder<s n="vblex"/></l><r>odpowiadać<s n="vblex"/></r></p></e>
     <e><p><l>referir<s n="vblex"/></l><r>nawiązywać<s n="vblex"/></r></p></e>
-    <e><p><l>tener<s n="vblex"/></l><r>mieć<s n="vblex"/></r></p></e>
+    <e><p><l>tener<s n="vblex"/></l><r>mieć<s n="vbhaver"/></r></p></e>
     <e><p><l>ser<s n="vbser"/></l><r>być<s n="vbser"/></r></p></e>
     <e><p><l>terminar<s n="vblex"/></l><r>zakończyć<s n="vblex"/></r></p></e>
     <e><p><l>terminar<s n="vblex"/></l><r>kończyć<s n="vblex"/></r></p></e>
