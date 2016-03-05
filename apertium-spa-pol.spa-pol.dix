@@ -166,6 +166,7 @@
     <e><p><l>división<s n="n"/><s n="f"/></l><r>dzielenie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>dos<b/>puntos<s n="n"/><s n="m"/></l><r>dwukropek<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>ejemplo<s n="n"/><s n="m"/></l><r>wzór<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>ejemplo<s n="n"/><s n="m"/></l><r>przykład<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>emoción<s n="n"/><s n="f"/></l><r>emocja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>enclítica<s n="n"/><s n="f"/></l><r>enklityka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>entrada<s n="n"/><s n="f"/></l><r>hasło<s n="n"/><s n="nt"/></r></p></e>
@@ -176,6 +177,7 @@
     <e><p><l>error<s n="n"/><s n="m"/></l><r>błąd<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>estado<s n="n"/><s n="m"/></l><r>stan<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>estructura<s n="n"/><s n="f"/></l><r>konstrukcja<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>estructura<s n="n"/><s n="f"/></l><r>struktura<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>etimología<s n="n"/><s n="f"/></l><r>etymologia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>exclamación<s n="n"/><s n="f"/></l><r>wykrzyknik<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>expresión<s n="n"/><s n="f"/></l><r>wyrażenie<s n="n"/><s n="nt"/></r></p></e>
@@ -244,7 +246,6 @@
     <e><p><l>novedad<s n="n"/><s n="f"/></l><r>nowość<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>numeral<s n="n"/><s n="m"/></l><r>liczebnik<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>número<s n="n"/><s n="m"/></l><r>liczba<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>número<b/>cardinal<s n="n"/><s n="m"/></l><r>liczebnik<b/>porządkowy<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>oración<s n="n"/><s n="f"/></l><r>zdanie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>oración<b/>compuesta<b/>subordinada<s n="n"/><s n="f"/></l><r>zdanie<b/>złożone<b/>podrzędnie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>oración<b/>compuesta<b/>coordinada<s n="n"/><s n="f"/></l><r>zdanie<b/>złożone<b/>współrzędnie<s n="n"/><s n="nt"/></r></p></e>
@@ -348,8 +349,8 @@
     <e><p><l>auxiliar<s n="adj"/></l><r>posiłkowy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>básico<s n="adj"/></l><r>podstawowy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>blanco<s n="adj"/></l><r>biały<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>blanco<s n="adj"/></l><r>biały<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>blando<s n="adj"/></l><r>miękki<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>cardinal<s n="adj"/></l><r>główny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>calificativo<s n="adj"/></l><r>jakościowy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>cierto<s n="adj"/></l><r>pewny<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>circunstancial<s n="adj"/></l><r>przypadkowy<s n="adj"/><s n="sint"/></r></p></e>
@@ -559,6 +560,7 @@
     <e><p><l>omitir<s n="vblex"/></l><r>mijać<s n="vblex"/></r></p></e>
     <e><p><l>responder<s n="vblex"/></l><r>odpowiadać<s n="vblex"/></r></p></e>
     <e><p><l>referir<s n="vblex"/></l><r>nawiązywać<s n="vblex"/></r></p></e>
+    <e><p><l>significar<s n="vblex"/></l><r>znaczyć<s n="vblex"/></r></p></e>
     <e><p><l>tener<s n="vblex"/></l><r>mieć<s n="vbhaver"/></r></p></e>
     <e><p><l>ser<s n="vbser"/></l><r>być<s n="vbser"/></r></p></e>
     <e><p><l>terminar<s n="vblex"/></l><r>zakończyć<s n="vblex"/></r></p></e>
