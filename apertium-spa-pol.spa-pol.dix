@@ -1,5 +1,5 @@
 <dictionary>
-  <sdefs>  <!-- esta lista debe ser completa -->
+    <sdefs>  <!-- esta lista debe ser completa -->
     <sdef n="n"      c="Sustantivo"/>
     <sdef n="vbser"  c="El verbo 'ser'"/>
     <sdef n="vblex"  c="Verbos léxicos"/>
@@ -11,7 +11,6 @@
     <sdef n="cnjadv" c="Conjunción adverbial"/>
     <sdef n="cnjsub" c="Conjunción de subordinación"/>
     <sdef n="prn"    c="pronombre"/>
-
     <sdef n="nt"     c="Neutro"/>
     <sdef n="m"      c="Masculino"/>
     <sdef n="mf"     c="Masculino / femenino"/>
@@ -19,11 +18,65 @@
     <sdef n="mp"     c="Masculino (personal)"/>
     <sdef n="ma"     c="Masculino (animado)"/>
     <sdef n="f"      c="Femenino"/>
-
     <sdef n="def"    c="Definido"/>
     <sdef n="sint"   c="Sintético"/>
-
-    <sdef n="sent"   c="Marcador de fin de oración"/>
+    <sdef n="acr"    c=”Acrónimo”/> 
+    <sdef n="abbr"   c=/> 
+    <sdef n="rel"    c=”Relativo”/> 
+    <sdef n="np"     c=”Nombre propio”/> 
+    <sdef n="comp"   c=”Comparativo”/> 
+    <sdef n="sup"    c=”Superlativo”/> 
+    <sdef n="an"     c=”Animado/Inanimado”/> 
+    <sdef n="num"    c=”Numeral”/> 
+    <sdef n="nm"     c=”/> 
+    <sdef n="vbhaver" c=”el verbo ‘tener’”/> 
+    <sdef n="vaux"   c=”el verbo auxuliar/> 
+    <sdef n="perf"   c=”perfectivo”/> 
+    <sdef n="imperf" c=”imperfectivo”/> 
+    <sdef n="ij"     c=”interjección/> 
+    <sdef n="itg"    c=”interrogación/> 
+    <sdef n="qnt"    c=”cuantificador/> 
+    <sdef n="pos"    c=”posesivo/> 
+    <sdef n="dem"    c=”demostrativo/> 
+    <sdef n="ind"    c=”indefinido”/> 
+    <sdef n="ref"    c=”reflexivo”/> 
+    <sdef n="nom"    c=”nominativo”/> 
+    <sdef n="gen"    c=”genitivo”/> 
+    <sdef n="dat"    c=”dativo”/> 
+    <sdef n="acc"    c=”acusativo”/> 
+    <sdef n="ins"    c=”instrumental”/> 
+    <sdef n="loc"    c=”locativo”/> 
+    <sdef n="voc"    c=”vocativo”/> 
+    <sdef n="CD"     /> 
+    <sdef n="indecl" c=”indeclinable”/> 
+    <sdef n="sg"     c=”singular”/> 
+    <sdef n="pl"     c=”plural”/> 
+    <sdef n="sp"     c=”singular/plural”/> 
+    <sdef n="du"     c=”dual”/> 
+    <sdef n="p1"     c=”primera persona”/> 
+    <sdef n="p2"     c=”segunda persona”/> 
+    <sdef n="p3"     c=”tercera persona”/> 
+    <sdef n="emph"   c=”/> 
+    <sdef n="ppr"    c=”/> 
+    <sdef n="lpar"   c=”Apertura paréntesis o corchete (,[“/> 
+    <sdef n="rpar"   c=”Cierre paréntesis o corchete ),]”/>
+    <sdef n=”lquest  c=”apertura de frase interrogativa ?”/> 
+    <sdef n="ant"    c=”antropónimo”/> 
+    <sdef n="top"    c=”topónimo”/> 
+    <sdef n="hyd"    c=”hidrónimo”/>  
+    <sdef n="al"     c=”otros”/> 
+    <sdef n="GD"     c=”género por determinar”/> 
+    <sdef n="ND"     c=”número por determinar”/> 
+    <sdef n="preadv" c=”preadverbio”/> 
+    <sdef n="ord"    c=”ordinal”/> 
+    <sdef n="uns"    c=”/> 
+    <sdef n="past"   c=”/> 
+    <sdef n="cni"    c=”condicional”/> 
+    <sdef n="pprs"   c=”/> 
+    <sdef n="imp"    c=”imperativo”/> 
+    <sdef n="fti"    c=”futuro”/> 
+    <sdef n="pres"   c=”presente”/> 
+    <sdef n="sent"   c="Marcador de fin de oración .,:,;,?,!"/>
     <sdef n="cm"     c="coma"/>
   </sdefs>
   <section id="main" type="standard">
@@ -33,7 +86,7 @@
     <e r="LR"><p><l>el<s n="det"/><s n="def"/></l><r></r></p></e>
     <e><p><l>este<s n="det"/></l><r>taki<s n="det"/></r></p></e>
     <e><p><l>este<s n="det"/></l><r>ten<s n="det"/><s n="dem"/></r></p></e>
-    <e><p><l>cada<s n="det"/><s n="ind"/></l><r>każdy<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>cada<s n="det"/><s n="ind"/></l><r>każdy<s n="det"/></r></p></e>
 
     <!-- SECCIÓN: Conjunciones -->
 
