@@ -28,7 +28,7 @@
     <sdef n="sup"    c=”Superlativo”/> 
     <sdef n="an"     c=”Animado/Inanimado”/> 
     <sdef n="num"    c=”Numeral”/> 
-    <sdef n="nm"     c=”/> 
+    <sdef n="nm"     c=/> 
     <sdef n="vbhaver" c=”el verbo ‘tener’”/> 
     <sdef n="vaux"   c=”el verbo auxuliar/> 
     <sdef n="perf"   c=”perfectivo”/> 
@@ -47,7 +47,7 @@
     <sdef n="ins"    c=”instrumental”/> 
     <sdef n="loc"    c=”locativo”/> 
     <sdef n="voc"    c=”vocativo”/> 
-    <sdef n="CD"     /> 
+    <sdef n="CD"     c=/> 
     <sdef n="indecl" c=”indeclinable”/> 
     <sdef n="sg"     c=”singular”/> 
     <sdef n="pl"     c=”plural”/> 
@@ -56,8 +56,8 @@
     <sdef n="p1"     c=”primera persona”/> 
     <sdef n="p2"     c=”segunda persona”/> 
     <sdef n="p3"     c=”tercera persona”/> 
-    <sdef n="emph"   c=”/> 
-    <sdef n="ppr"    c=”/> 
+    <sdef n="emph"   c=/> 
+    <sdef n="ppr"    c=/> 
     <sdef n="lpar"   c=”Apertura paréntesis o corchete (,[“/> 
     <sdef n="rpar"   c=”Cierre paréntesis o corchete ),]”/>
     <sdef n=”lquest  c=”apertura de frase interrogativa ?”/> 
@@ -98,7 +98,7 @@
     <e><p><l>pero<s n="cnjcoo"/></l><r>ale<s n="cnjcoo"/></r></p></e>
     <e><p><l>pero<s n="cnjcoo"/></l><r>lecz<s n="cnjcoo"/></r></p></e>
     <e><p><l>es<b/>decir<s n="cnjadv"/></l><r>czyli<s n="cnjcoo"/></r></p></e>
-    <e><p><l>es<b/>decir<s n="cnjadv"/></l><r>tzn<s n="adv"/></r></p></e>
+    <e><p><l>es<b/>decir<s n="cnjadv"/></l><r>tzn<s n="abbr"/></r></p></e>
     <e><p><l>es<b/>decir<s n="cnjadv"/></l><r>to<b/>znaczy<s n="cnjcoo"/></r></p></e>
     <e><p><l>pues<s n="cnjadv"/></l><r>więc<s n="cnjadv"/></r></p></e>
 
@@ -121,9 +121,19 @@
 
     <e><p><l>alguno<s n="prn"/></l><r>niektóry<s n="prn"/></r></p></e>
     <e><p><l>alguno<s n="prn"/></l><r>jakiś<s n="prn"/></r></p></e>
+    <e><p><l>ninguno<s n="prn"/></l><r>żaden<s n="prn"/></r></p></e>
     <e><p><l>se<s n="prn"/></l><r>się<s n="prn"/></r></p></e>
-    <e><p><l>cual<s n="rel"/></l><r>który<s n="pr"/></r></p></e>
     <e><p><l>todo<s n="prn"/></l><r>wszyscy<s n="prn"/></r></p></e>
+    <e><p><l>qué<s n="prn"/></l><r>co<s n="prn"/></r></p></e>
+    <e><p><l>quién<s n="prn"/></l><r>kto<s n="prn"/></r></p></e>
+    <e><p><l>alguien<s n="prn"/></l><r>ktoś<s n="prn"/></r></p></e>
+    <e><p><l>nadie<s n="prn"/></l><r>nikt<s n="prn"/></r></p></e>
+    <e><p><l>nada<s n="prn"/></l><r>nic<s n="prn"/></r></p></e>
+    <e><p><l>algo<s n="prn"/></l><r>coś<s n="prn"/></r></p></e>
+    <e><p><l>cuál<s n="prn"/></l><r>który<s n="prn"/></r></p></e>
+    <e><p><l>cualquiera<s n="prn"/></l><r>jakikolwiek<s n="prn"/></r></p></e>
+    <e><p><l>cualquiera<s n="prn"/></l><r>którykolwiek<s n="prn"/></r></p></e>
+    <e><p><l>todo<b/>el<b/>mundo<s n="prn"/></l><r>wszyscy<s n="prn"/></r></p></e>
     
     <!-- SECCIÓN: Números -->
 
@@ -183,7 +193,7 @@
     <e><p><l>categoría<s n="n"/><s n="f"/></l><r>kategoria<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>causa<s n="n"/><s n="f"/></l><r>przyczyna<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>coma<s n="n"/><s n="m"/></l><r>przecinek<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>comillas<s n="n"/><s n="f"/><s n="pl"/></l><r>cudzysłów<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>comilla<s n="n"/><s n="f"/></l><r>cudzysłów<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>complemento<s n="n"/><s n="m"/></l><r>dopełnienie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>complemento<b/>directo<s n="n"/><s n="m"/></l><r>dopełnienie<b/>bliższe<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>complemento<b/>indirecto<s n="n"/><s n="m"/></l><r>dopełnienie<b/>dalsze<s n="n"/><s n="nt"/></r></p></e>
@@ -586,7 +596,6 @@
     <e><p><l>entre<b/>comillas<s n="adv"/></l><r>w<b/>cudzysłowie<s n="adv"/></r></p></e>
     <e><p><l>dos<b/>veces<s n="adv"/></l><r>dwukrotnie<s n="adv"/></r></p></e>
     <e><p><l>varias<b/>veces<s n="adv"/></l><r>wielokrotnie<s n="adv"/></r></p></e>
-    <e><p><l>formativo<s n="adv"/></l><r>słowotwórczo<s n="adv"/></r></p></e>
     <e><p><l>sintácticamente<s n="adv"/></l><r>składniowo<s n="adv"/></r></p></e>
     
 
