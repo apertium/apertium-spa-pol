@@ -195,9 +195,9 @@
     <e><p><l>coma<s n="n"/><s n="m"/></l><r>przecinek<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>comilla<s n="n"/><s n="f"/></l><r>cudzysłów<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>complemento<s n="n"/><s n="m"/></l><r>dopełnienie<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>complemento<b/>directo<s n="n"/><s n="m"/></l><r>dopełnienie<b/>bliższe<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>complemento<b/>indirecto<s n="n"/><s n="m"/></l><r>dopełnienie<b/>dalsze<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>complemento<b/>circunstancial<s n="n"/><s n="m"/></l><r>okolicznik<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>complemento<b/>directo<s n="n"/></l><r>dopełnienie<b/>bliższe<s n="n"/></r></p></e>
+    <e><p><l>complemento<b/>indirecto<s n="n"/></l><r>dopełnienie<b/>dalsze<s n="n"/></r></p></e>
+    <e><p><l>complemento<b/>circunstancial<s n="n"/></l><r>okolicznik<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>composición<s n="n"/><s n="f"/></l><r>budowa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>composición<s n="n"/><s n="f"/></l><r>złożenie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>comunicación<s n="n"/><s n="f"/></l><r>porozumiewanie<s n="n"/><s n="nt"/></r></p></e>
@@ -245,7 +245,7 @@
     <e><p><l>exclamación<s n="n"/><s n="f"/></l><r>wykrzyknik<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>expresión<s n="n"/><s n="f"/></l><r>wyrażenie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>expresión<s n="n"/><s n="f"/></l><r>wyrażanie<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>expresión<b/>idiomática<s n="n"/><s n="f"/></l><r>związek<b/>frazeologiczny n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>expresión<b/>idiomática<s n="n"/></l><r>związek<b/>frazeologiczny n="n"/></r></p></e>
     <e><p><l>factor<s n="n"/><s n="m"/></l><r>czynnik<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>familia<s n="n"/><s n="f"/></l><r>rodzina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>finalidad<s n="n"/><s n="f"/></l><r>cel<s n="n"/><s n="mi"/></r></p></e>
@@ -254,7 +254,7 @@
     <e><p><l>fonema<s n="n"/><s n="m"/></l><r>fonem<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>fonética<s n="n"/><s n="f"/></l><r>fonetyka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>forma<s n="n"/><s n="f"/></l><r>forma<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>formación<b/>de<b/>palabras<s n="n"/><s n="f"/></l><r>słowotwórstwo<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>formación<g><b/>de<b/>palabras</g><s n="n"/><s n="f"/></l><r>słowotwórstwo<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>fragmento<s n="n"/><s n="m"/></l><r>fragment<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>frase<s n="n"/><s n="f"/></l><r>fraza<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>fraseología<s n="n"/><s n="f"/></l><r>frazeologia<s n="n"/><s n="f"/></r></p></e>
@@ -321,8 +321,8 @@
     <e><p><l>papel<s n="n"/><s n="m"/></l><r>funkcja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>paréntesis<s n="n"/><s n="m"/></l><r>nawias<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>párrafo<s n="n"/><s n="m"/></l><r>akapit<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>parte<b/>de<b/>la<b/>oración<s n="n"/><s n="f"/></l><r>część<b/>mowy<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>elemento<b/>de<b/>la<b/>oración<s n="n"/><s n="m"/></l><r>część<b/>zdania<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>parte<g><b/>de<b/>la<b/>oración</g><s n="n"/><s n="f"/></l><r>część<g><b/>mowy</g><s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>elemento<g><b/>de<b/>la<b/>oración</g><s n="n"/><s n="m"/></l><r>część<g><b/>zdania</g><s n="n"/><s n="f"/></r></p></e>
     <e><p><l>participio<s n="n"/><s n="m"/></l><r>imiesłów<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>partícula<s n="n"/><s n="f"/></l><r>partykuła<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>permiso<s n="n"/><s n="m"/></l><r>przyzwolenie<s n="n"/><s n="nt"/></r></p></e>
@@ -330,7 +330,7 @@
     <e><p><l>persona<s n="n"/><s n="f"/></l><r>osoba<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>personalidad<s n="n"/><s n="f"/></l><r>osobowość<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pertenencia<s n="n"/><s n="f"/></l><r>przynależność<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>plural<s n="n"/><s n="m"/></l><r>liczba<b/>mnoga<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>plural<s n="n"/><s n="m"/></l><r>liczba<b/>mnoga<s n="n"/></r></p></e>
     <e><p><l>polisemia<s n="n"/><s n="f"/></l><r>polisemia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>predicado<s n="n"/><s n="m"/></l><r>orzeczenie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>prefijo<s n="n"/><s n="m"/></l><r>prefiks<s n="n"/><s n="mi"/></r></p></e>
@@ -357,12 +357,12 @@
     <e><p><l>significado<s n="n"/><s n="m"/></l><r>znaczenie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>signo<s n="n"/><s n="m"/></l><r>znak<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>sintagma<s n="n"/><s n="m"/></l><r>człon<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>sintagma<b/>verbal<s n="n"/><s n="m"/></l><r>grupa<b/>orzeczenia<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>sintagma<b/>nominal<s n="n"/><s n="m"/></l><r>grupa<b/>podmiotu<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sintagma<b/>verbal<s n="n"/></l><r>grupa<g><b/>orzeczenia</g><s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sintagma<b/>nominal<s n="n"/></l><r>grupa<g><b/>podmiotu</g><s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sílaba<s n="n"/><s n="f"/></l><r>sylaba<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sílaba<s n="n"/><s n="f"/></l><r>zgłoska<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>simplificación<s n="n"/><s n="f"/></l><r>uproszczenie<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>singular<s n="n"/><s n="m"/></l><r>liczba<b/>pojedyncza<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>singular<s n="n"/><s n="m"/></l><r>liczba<b/>pojedyncza<s n="n"/></r></p></e>
     <e><p><l>sinónimo<s n="n"/><s n="m"/></l><r>synonim<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>sintaxis<s n="n"/><s n="f"/></l><r>składnia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sonido<s n="n"/><s n="m"/></l><r>głoska<s n="n"/><s n="f"/></r></p></e>
@@ -378,7 +378,7 @@
     <e><p><l>terminología<s n="n"/><s n="f"/></l><r>terminologia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>texto<s n="n"/><s n="m"/></l><r>tekst<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>tiempo<s n="n"/><s n="m"/></l><r>czas<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>tilde<s n="n"/><s n="f"/></l><r>akcent<b/>graficzny<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>tilde<s n="n"/><s n="f"/></l><r>akcent<b/>graficzny<s n="n"/></r></p></e>
     <e><p><l>tipo<s n="n"/><s n="m"/></l><r>typ<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>toalla<s n="n"/><s n="f"/></l><r>ręcznik<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>torre<s n="n"/><s n="f"/></l><r>wieża<s n="n"/><s n="f"/></r></p></e>
@@ -389,9 +389,9 @@
     <e><p><l>vocal<s n="n"/><s n="f"/></l><r>samogłoska<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vocativo<s n="n"/><s n="m"/></l><r>wołacz<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>voz<s n="n"/><s n="f"/></l><r>głos<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>voz<b/>pasiva<s n="n"/><s n="f"/></l><r>strona<b/>bierna<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>voz<b/>activa<s n="n"/><s n="f"/></l><r>strona<b/>czynna<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>voz<b/>refleja<s n="n"/><s n="f"/></l><r>strona<b/>zwrotna<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>voz<b/>pasiva<s n="n"/></l><r>strona<b/>bierna<s n="n"/></r></p></e>
+    <e><p><l>voz<b/>activa<s n="n"/></l><r>strona<b/>czynna<s n="n"/></r></p></e>
+    <e><p><l>voz<b/>refleja<s n="n"/></l><r>strona<b/>zwrotna<s n="n"/></r></p></e>
     <e><p><l>yuxtaposición<s n="n"/><s n="f"/></l><r>zestawienie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>yuxtaposición<s n="n"/><s n="f"/></l><r>zrost<s n="n"/><s n="mi"/></r></p></e>
 
