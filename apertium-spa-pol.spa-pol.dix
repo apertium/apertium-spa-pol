@@ -14,9 +14,9 @@
     <sdef n="nt"     c="Neutro"/>
     <sdef n="m"      c="Masculino"/>
     <sdef n="mf"     c="Masculino / femenino"/>
-    <sdef n="mi"     c="Masculino (inanimado)"/>
-    <sdef n="mp"     c="Masculino (personal)"/>
-    <sdef n="ma"     c="Masculino (animado)"/>
+    <sdef n="mi"     c="Masculino inanimado"/>
+    <sdef n="mp"     c="Masculino personal"/>
+    <sdef n="ma"     c="Masculino animado"/>
     <sdef n="f"      c="Femenino"/>
     <sdef n="def"    c="Definido"/>
     <sdef n="sint"   c="Sintético"/>
@@ -29,10 +29,12 @@
     <sdef n="an"     c="Animado/Inanimado"/> 
     <sdef n="num"    c="Numeral"/> 
     <sdef n="vbhaver" c="el verbo 'tener'"/> 
-    <sdef n="vaux"   c="el verbo auxuliar"/> 
+    <sdef n="vaux"   c="el verbo auxuliar"/>
+    <sdef n="vbmod"  c="el verbo modal"/> 
     <sdef n="perf"   c="perfectivo"/> 
     <sdef n="imperf" c="imperfectivo"/> 
     <sdef n="ij"     c="interjección"/> 
+    <sdef n="inf"    c="infinitivo"/>
     <sdef n="itg"    c="interrogación"/> 
     <sdef n="qnt"    c="cuantificador"/> 
     <sdef n="pos"    c="posesivo"/> 
@@ -69,8 +71,12 @@
     <sdef n="cni"    c="condicional"/> 
     <sdef n="pprs"   c="participio presente"/> 
     <sdef n="imp"    c="imperativo"/> 
-    <sdef n="fti"    c="futuro"/> 
+    <sdef n="fti"    c="futuro de indicativo"/> 
+    <sdef n="fut"    c="futuro"/>
     <sdef n="pres"   c="presente"/> 
+    <sdef n="pri"    c="presente de indicativo"/>
+    <sdef n="pp"     c="participio pasado"/>
+    <sdef n="ger"    c="gerundio"/>
     <sdef n="sent"   c="Marcador de fin de oración .,:,;,?,!"/>
     <sdef n="cm"     c="coma"/>
   </sdefs>
