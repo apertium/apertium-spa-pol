@@ -13,7 +13,7 @@
     <sdef n="prn"    c="pronombre"/>
     <sdef n="nt"     c="Neutro"/>
     <sdef n="m"      c="Masculino"/>
-    <sdef n="mf"     c="Masculino / femenino"/>
+    <sdef n="mf"     c="Masculino/femenino"/>
     <sdef n="mi"     c="Masculino inanimado"/>
     <sdef n="mp"     c="Masculino personal"/>
     <sdef n="ma"     c="Masculino animado"/>
@@ -29,7 +29,7 @@
     <sdef n="an"     c="Animado/Inanimado"/> 
     <sdef n="num"    c="Numeral"/> 
     <sdef n="vbhaver" c="el verbo 'tener'"/> 
-    <sdef n="vaux"   c="el verbo auxuliar"/>
+    <sdef n="vaux"   c="el verbo auxiliar"/>
     <sdef n="vbmod"  c="el verbo modal"/> 
     <sdef n="perf"   c="perfectivo"/> 
     <sdef n="imperf" c="imperfectivo"/> 
