@@ -1,4 +1,3 @@
-VERSION=0.1.0
 LANG1=spa
 LANG2=pol
 PREFIX1=$(LANG1)-$(LANG2)
@@ -14,6 +13,8 @@ TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autog
      $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
      $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin \
      $(PREFIX1).prob $(PREFIX2).prob
+
+@ap_include@
 
 $(PREFIX1).automorf.bin: $(AP_SRC1)/apertium-$(LANG1).$(LANG1).dix $(AP_SRC1)/apertium-$(LANG1).$(LANG1).acx
 	apertium-validate-acx $(AP_SRC1)/apertium-$(LANG1).$(LANG1).acx
@@ -92,17 +93,6 @@ $(PREFIX1).prob: $(AP_SRC1)/$(LANG1).prob
 $(PREFIX2).prob: $(AP_SRC2)/$(LANG2).prob
 	cp $< $@
 
-###############################################################################
-## Translation modes
-###############################################################################
-
-# All modes are created by this one goal
-modes/$(PREFIX1).mode: modes.xml
-	apertium-validate-modes modes.xml
-	apertium-gen-modes modes.xml
-	cp *.mode modes/
-
-
 EXTRA_DIST=$(BASENAME).$(PREFIX1).dix \
            $(BASENAME).$(PREFIX1).lrx \
            $(BASENAME).$(PREFIX2).lrx \
@@ -113,22 +103,13 @@ EXTRA_DIST=$(BASENAME).$(PREFIX1).dix \
 
 apertium_spa_pol_DATA=$(TARGETS_COMMON) modes.xml
 
-apertium_modesdir=$(prefix)/share/apertium/modes/
 apertium_spa_poldir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
 
 # All modes are created by the same goal, listing several will just give problems with make -j2
 noinst_DATA=modes/$(PREFIX1).mode
 
 
-install-data-local:
-	mv modes modes.bak
-	$(prefix)/bin/apertium-gen-modes modes.xml $(BASENAME)
-	rm -rf modes
-	mv modes.bak modes
-	test -d $(DESTDIR)$(apertium_modesdir) || mkdir $(DESTDIR)$(apertium_modesdir)
-	modes=`xmllint --xpath '//mode[@install="yes"]/@name' modes.xml | sed 's/ *name="\([^"]*\)"/\1.mode /g'`; \
-		$(INSTALL_DATA) $$modes $(DESTDIR)$(apertium_modesdir); \
-		rm $$modes
+install-data-local: install-modes
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(DESTDIR)$(apertium_spa_poldir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t2x $(DESTDIR)$(apertium_spa_poldir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t3x $(DESTDIR)$(apertium_spa_poldir)
@@ -136,5 +117,4 @@ install-data-local:
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t2x $(DESTDIR)$(apertium_spa_poldir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX3).t3x $(DESTDIR)$(apertium_spa_poldir)
 
-
-CLEANFILES = -rf $(TARGETS_COMMON) modes
+CLEANFILES = -rf $(TARGETS_COMMON)

@@ -1,7 +1,3 @@
-#                                               -*- Autoconf -*-
-# Process this file with autoconf to produce a configure script.
-
-
 AC_PREREQ(2.52)
 
 AC_INIT([apertium-spa-pol], [0.0.1], [foo@foo.com])
@@ -12,7 +8,6 @@ AC_CONFIG_HEADER([config])
 
 m4_define([required_apertium_version], [3.3.0])
 PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version, [], [PKG_CHECK_MODULES(APERTIUM,   apertium-3.2 >= required_apertium_version)])
-                          
 
 AC_PATH_PROG(CGCOMP, cg-comp, no)
 if test x$ac_cv_path_CGCOMP = x
@@ -55,11 +50,11 @@ then
 fi
 
 
-
 m4_ifdef([AP_CHECK_LING],[],[AC_MSG_ERROR([AP_CHECK_LING not defined, is apertium.m4 in ACLOCAL_PATH? See: http://wiki.apertium.org/wiki/Installation_troubleshooting])])
 
 AP_CHECK_LING([1], [apertium-spa])
 AP_CHECK_LING([2], [apertium-pol])
 
-  
+AP_MKINCLUDE
+
 AC_OUTPUT([Makefile])
